@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'BoostSwift/Sources/*.swift'
   
-  s.resource_bundles = {
-    'BoostSwift' => ['BoostSwift/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'BoostSwift' => ['BoostSwift/Assets/*.png']
+  # }
 
   # Swift Core Libraries Extensions
   s.subspec 'CoreLibs' do |ss|

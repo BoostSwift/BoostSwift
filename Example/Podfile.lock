@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BoostSwift: 4090bb71659196ca1a93a7a36fdbe6940e3277ab
+  BoostSwift: 34121caefa9c750f0b8254f43b01ef7c8a46bb0f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   iOSSnapshotTestCase: f3b2b7e606fe03fdbe49af84316bd235df32dc44
   Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
