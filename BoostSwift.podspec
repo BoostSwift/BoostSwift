@@ -35,5 +35,15 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |ss|
     ss.source_files  = 'BoostSwift/Sources/Extensions/UIKit/*.swift'
   end
-
+  
+  # Dependency
+  s.dependency 'RxSwift'
+  s.dependency 'RxSwiftExt'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxFeedback'
+  s.dependency 'RxDataSources'
+  s.dependency 'Moya'
+  s.dependency 'ObjectMapper'
+  s.dependency 'Moya-ObjectMapper'
+  
 end

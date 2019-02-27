@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'BoostSwiftExamples' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BoostSwiftExamples
+  pod 'BoostSwift',  :path => '../'
+
+  target 'BoostSwiftExamplesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BoostSwiftExamplesUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
