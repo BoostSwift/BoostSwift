@@ -22,7 +22,7 @@ public protocol BoostSwiftCompatible {
 }
 
 public extension BoostSwiftCompatible {
-    public var bs: BoostSwift<Self> {
+    var bs: BoostSwift<Self> {
         return BoostSwift(self)
     }
 }

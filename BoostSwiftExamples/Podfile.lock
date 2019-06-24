@@ -3,7 +3,14 @@ PODS:
   - BoostSwift (0.1.0):
     - BoostSwift/CoreLibs (= 0.1.0)
     - BoostSwift/Foundation (= 0.1.0)
+    - BoostSwift/Services (= 0.1.0)
+    - BoostSwift/ShortVideo (= 0.1.0)
     - BoostSwift/UIKit (= 0.1.0)
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -12,7 +19,13 @@ PODS:
     - RxFeedback
     - RxSwift
     - RxSwiftExt
+    - SwifterSwift
   - BoostSwift/CoreLibs (0.1.0):
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -21,7 +34,13 @@ PODS:
     - RxFeedback
     - RxSwift
     - RxSwiftExt
+    - SwifterSwift
   - BoostSwift/Foundation (0.1.0):
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -30,7 +49,43 @@ PODS:
     - RxFeedback
     - RxSwift
     - RxSwiftExt
+    - SwifterSwift
+  - BoostSwift/Services (0.1.0):
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - RxCocoa
+    - RxDataSources
+    - RxFeedback
+    - RxSwift
+    - RxSwiftExt
+    - SwifterSwift
+  - BoostSwift/ShortVideo (0.1.0):
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - RxCocoa
+    - RxDataSources
+    - RxFeedback
+    - RxSwift
+    - RxSwiftExt
+    - SwifterSwift
   - BoostSwift/UIKit (0.1.0):
+    - CocoaLumberjack/Swift
+    - DeviceKit
+    - FontAwesome.swift
+    - MessageKit
+    - MonkeyKing
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -39,7 +94,17 @@ PODS:
     - RxFeedback
     - RxSwift
     - RxSwiftExt
+    - SwifterSwift
+  - CocoaLumberjack/Core (3.5.1)
+  - CocoaLumberjack/Swift (3.5.1):
+    - CocoaLumberjack/Core
+  - DeviceKit (1.11.0)
   - Differentiator (3.1.0)
+  - FontAwesome.swift (1.5.1)
+  - InputBarAccessoryView (4.2.2)
+  - MessageKit (3.0.0):
+    - InputBarAccessoryView (~> 4.2.2)
+  - MonkeyKing (1.15.0)
   - Moya (12.0.1):
     - Moya/Core (= 12.0.1)
   - Moya-ObjectMapper (2.8):
@@ -52,17 +117,17 @@ PODS:
     - Result (~> 4.0)
   - ObjectMapper (3.4.2)
   - Result (4.1.0)
-  - RxAtomic (4.4.0)
-  - RxCocoa (4.4.0):
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
     - RxSwift (~> 4.0)
   - RxDataSources (3.1.0):
     - Differentiator (~> 3.0)
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
-  - RxFeedback (1.1.1):
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
-  - RxSwift (4.4.0):
+  - RxFeedback (2.0.0):
+    - RxCocoa (~> 4.4)
+    - RxSwift (~> 4.4)
+  - RxSwift (4.4.1):
     - RxAtomic (~> 4.4)
   - RxSwiftExt (3.4.0):
     - RxSwiftExt/Core (= 3.4.0)
@@ -72,6 +137,23 @@ PODS:
   - RxSwiftExt/RxCocoa (3.4.0):
     - RxCocoa (~> 4.0)
     - RxSwiftExt/Core
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
 
 DEPENDENCIES:
   - BoostSwift (from `../`)
@@ -79,7 +161,13 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - CocoaLumberjack
+    - DeviceKit
     - Differentiator
+    - FontAwesome.swift
+    - InputBarAccessoryView
+    - MessageKit
+    - MonkeyKing
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -90,6 +178,7 @@ SPEC REPOS:
     - RxFeedback
     - RxSwift
     - RxSwiftExt
+    - SwifterSwift
 
 EXTERNAL SOURCES:
   BoostSwift:
@@ -97,19 +186,26 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  BoostSwift: 03fc62849dbaf9323057be722a2615a9342d3cea
+  BoostSwift: a8a5ac3be1e3b3a31469d1e023b2f9622534c8a8
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  DeviceKit: a3a86f8dddbe1317a9a243cdf9646858bf135dce
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  FontAwesome.swift: 9b5a9b9adb6d48b2d37c1e789889ef377cfbc205
+  InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
+  MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
+  MonkeyKing: 2bec76a578c8bd089703e70e20eb44e265bd2e67
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
-  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
-  RxFeedback: 640e317bc7f6c4914c39a2063c6d5c0e6c1aa65d
-  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  RxFeedback: 49bb931caf6d05e315d5b5366c0991ad1474ea36
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
   RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
 
-PODFILE CHECKSUM: 91332ab33c1594151cb10e60ded2f3854e6aefec
+PODFILE CHECKSUM: 8bbe7c477ae7c45da3946bb3b10040c08c8bf2e4
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.1

@@ -36,14 +36,36 @@ Pod::Spec.new do |s|
     ss.source_files  = 'BoostSwift/Sources/Extensions/UIKit/*.swift'
   end
   
-  # Dependency
+  # Features
+  s.subspec 'ShortVideo' do |ss|
+    ss.source_files = 'BoostSwift/Sources/Features/ShortVideo/*.swift'
+    ss.ios.frameworks = 'AVKit', 'AVFoundation'
+  end
+  
+  # Services
+  s.subspec 'Services' do |ss|
+      ss.source_files = 'BoostSwift/Sources/Services/*.swift'
+      ss.ios.frameworks = 'UIKit'
+  end
+  
+  # Dependency - Rx
   s.dependency 'RxSwift'
   s.dependency 'RxSwiftExt'
   s.dependency 'RxCocoa'
   s.dependency 'RxFeedback'
   s.dependency 'RxDataSources'
+  # Dependency - Network
   s.dependency 'Moya'
   s.dependency 'ObjectMapper'
   s.dependency 'Moya-ObjectMapper'
-  
+  # Dependency - Utility
+  s.dependency 'SwifterSwift'
+  s.dependency 'DeviceKit'
+  s.dependency 'FontAwesome.swift'
+  s.dependency 'CocoaLumberjack/Swift'
+  # Dependency - UI
+  s.dependency 'MessageKit'
+  # Dependency - Social
+  s.dependency 'MonkeyKing'
+
 end
